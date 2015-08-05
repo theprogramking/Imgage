@@ -1,4 +1,4 @@
-# Image
+# Imgage
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/KingShimkus/Imgage?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Stories in Ready](https://badge.waffle.io/KingShimkus/Imgage.svg?label=ready&title=Ready)](http://waffle.io/KingShimkus/Imgage)
 
