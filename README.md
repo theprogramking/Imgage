@@ -34,3 +34,7 @@ npm start
 ```
 
 Then make your way over to [http://localhost:8080](http://localhost:8080) and enjoy drawing. 
+
+# About
+
+Based off of [this](https://github.com/eddanger/Multi-Touch-Multi-User-Canvas) repository made my [Eddanger](https://github.com/eddanger).
