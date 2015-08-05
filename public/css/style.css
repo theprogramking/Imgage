@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    color: #eee;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Arial", sans-serif;
+    overflow: hidden;
+}
+.header {
+    text-align: center;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px #101010;
+    -moz-box-shadow: 0 1px 2px #101010;
+    box-shadow: 0 1px 2px #101010;
+    background-color: #303030;
+    margin: 10px auto;
+    width: 580px;
+}
+.header .title {
+    padding: 10px;
+    font-size: 26px;
+}
+.header .listening {
+    font-size: 14px;
+    color: #ccc;
+    padding-bottom: 20px;
+}
+#things {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 26px;
+    padding: 5px;
+    cursor: pointer;
+} #things a {
+    display: block;
+}
+.canvas {
+    text-align: center;
+}
+canvas {
+    -moz-border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 20px #303030;
+    -moz-box-shadow: 0px 0px 20px #303030;
+    cursor: crosshair;
+    max-width: 100%;
+    height: auto;
+}
+input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.3s;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  width: 100vw;
+  text-align: center;
+  font-size: 14px;
+}
+ input[type="text"]:focus,
+ input[type="text"].focus {
+  border-bottom: solid 2px #969696;
+}
+@media screen and (max-width: 420px) {
+    .header {
+        display: none;
+    }
+    canvas {
+        border: none;
+        border-radius: none;
+        -moz-border-radius: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        margin-bottom: 0px;
+    }
+}

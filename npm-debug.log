@@ -1,0 +1,57 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'owner', 'ls', 'Imgage' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 verbose node symlink /usr/bin/node
+5 verbose request where is /Imgage
+6 verbose request registry https://registry.npmjs.org/
+7 verbose request id b3dbe23b8d349db3
+8 verbose url raw /Imgage
+9 verbose url resolving [ 'https://registry.npmjs.org/', './Imgage' ]
+10 verbose url resolved https://registry.npmjs.org/Imgage
+11 verbose request where is https://registry.npmjs.org/Imgage
+12 info trying registry request attempt 1 at 12:51:28
+13 http GET https://registry.npmjs.org/Imgage
+14 http 404 https://registry.npmjs.org/Imgage
+15 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+15 verbose headers   'content-type': 'application/json',
+15 verbose headers   'cache-control': 'max-age=0',
+15 verbose headers   'content-length': '51',
+15 verbose headers   'accept-ranges': 'bytes',
+15 verbose headers   date: 'Tue, 04 Aug 2015 16:51:29 GMT',
+15 verbose headers   via: '1.1 varnish',
+15 verbose headers   age: '0',
+15 verbose headers   connection: 'keep-alive',
+15 verbose headers   'x-served-by': 'cache-jfk1024-JFK',
+15 verbose headers   'x-cache': 'MISS',
+15 verbose headers   'x-cache-hits': '0',
+15 verbose headers   'x-timer': 'S1438707089.862398,VS0,VE84' }
+16 silly registry.get cb [ 404,
+16 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+16 silly registry.get     'content-type': 'application/json',
+16 silly registry.get     'cache-control': 'max-age=0',
+16 silly registry.get     'content-length': '51',
+16 silly registry.get     'accept-ranges': 'bytes',
+16 silly registry.get     date: 'Tue, 04 Aug 2015 16:51:29 GMT',
+16 silly registry.get     via: '1.1 varnish',
+16 silly registry.get     age: '0',
+16 silly registry.get     connection: 'keep-alive',
+16 silly registry.get     'x-served-by': 'cache-jfk1024-JFK',
+16 silly registry.get     'x-cache': 'MISS',
+16 silly registry.get     'x-cache-hits': '0',
+16 silly registry.get     'x-timer': 'S1438707089.862398,VS0,VE84' } ]
+17 error owner ls Couldn't get owner data Imgage
+18 error 404 404 Not Found: Imgage
+18 error 404
+18 error 404 'Imgage' is not in the npm registry.
+18 error 404 You should bug the author to publish it
+18 error 404
+18 error 404 Note that you can also install from a
+18 error 404 tarball, folder, or http url, or git url.
+19 error System Linux 3.13.0-61-generic
+20 error command "/usr/bin/node" "/usr/bin/npm" "owner" "ls" "Imgage"
+21 error cwd /home/king/Desktop/Imgage
+22 error node -v v0.10.40
+23 error npm -v 1.4.28
+24 error code E404
+25 verbose exit [ 1, true ]

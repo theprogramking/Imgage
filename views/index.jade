@@ -1,0 +1,18 @@
+div.header
+  div.title Live Image Drawing App
+  div.listening
+
+div#things
+  div#close
+    &cross;
+  div#clear
+    &#9986;
+  div#download
+    a &downarrow;
+  
+div.container
+  div.canvas
+    canvas(id="canvas", height="800vh", style={background: '#fff'})
+
+div.footer
+  input#url(type='text', placeholder="Insert Image URL Here", onfocus="this.placeholder = ''", onblur="this.placeholder = 'Insert Image URL Here'")
