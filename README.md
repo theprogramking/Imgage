@@ -1,4 +1,6 @@
 # Image
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/KingShimkus/Imgage?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 A application that allows users to draw on an image together at the same time. I want  this Node.js application to be kind of a starter application for people just getting into Node and npm. If you have any problems or just want to chat feel free to do so.
 
 # Node and NPM
