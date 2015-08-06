@@ -1,15 +1,15 @@
-var body, canvas, ctx, socket, coords, last_coords, touchdown, input, clear, remove, download, link;
+var body, canvas, ctx, socket, coords, last_coords, touchdown, input, clear, remove, download, link, brushsize;
 
 $(document).ready(function() {
     setup_canvas();
     if (localStorage.temp) {
-        happyFace(localStorage.temp);
+        renderImage(localStorage.temp);
     } else {
-        happyFace();
+        renderImage();
     }
     setup_socket();
     setup_ios();
-
+    document.getElementById("color").value = "#"+((1<<24)*Math.random()|0).toString(16);
 });
 
 function setup_socket() {
@@ -154,13 +154,13 @@ function setup_canvas() {
     close.onmousedown = function() {
         var sure = confirm("Forget this ever happened?");
         if (sure === true) {
-            happyFace("black");
+            renderImage("black");
         }
     };
 
     clear.onmousedown = function() {
         ctx.fillRect(0, 0, canvas.width, canvas.height);
-        happyFace(localStorage.temp);
+        renderImage(localStorage.temp);
     };
     
     function downloadCanvas(link, canvasId, filename){
@@ -175,9 +175,9 @@ function setup_canvas() {
     document.onkeypress = function(e) {
         if (e.keyCode == 32) {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
-            happyFace(localStorage.temp);
+            renderImage(localStorage.temp);
         } else if (e.keyCode == 13) {
-            happyFace(input.value);
+            renderImage(input.value);
             input.value = "";
         } else {
             console.log("That key does not do anything.");
@@ -211,6 +211,9 @@ function send(coords) {
 }
 
 function move(coords) {
+    
+    brushsize = document.getElementById("size").value;    
+    
     for (var i = 0; i < coords.length; i++) {
         var current_coords = {
             x: coords[i].current.x,
@@ -227,8 +230,8 @@ function move(coords) {
         ctx.lineCap = 'round';
         ctx.moveTo(last_coords.x, last_coords.y);
         ctx.lineTo(current_coords.x, current_coords.y);
-        ctx.strokeStyle = "red";
-        ctx.lineWidth = 5;
+        ctx.strokeStyle = "#" + document.getElementById("color").color;
+        ctx.lineWidth = brushsize;
         ctx.stroke();
         ctx.closePath();
     }
@@ -236,7 +239,7 @@ function move(coords) {
     send(coords);
 }
 
-function happyFace(url) {
+function renderImage(url) {
     if (url == "black") {
         ctx.fillRect(0, 0, canvas.width, canvas.height);
         localStorage.temp = "black";

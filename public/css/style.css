@@ -6,6 +6,12 @@ body {
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Arial", sans-serif;
     overflow: hidden;
 }
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {  
+
+   opacity: 1;
+
+}
 .header {
     text-align: center;
     -moz-border-radius: 3px;
@@ -26,6 +32,18 @@ body {
     font-size: 14px;
     color: #ccc;
     padding-bottom: 20px;
+}
+#settings {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 15px;
+}#settings input{
+    width: 50px;
+    border-radius: 6px;
+    border: none;
+    padding: 5px;
+    margin-right: 15px;
 }
 #things {
     text-align: center;

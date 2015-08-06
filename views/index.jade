@@ -2,6 +2,12 @@ div.header
   div.title Live Image Drawing App
   div.listening
 
+#settings
+  | Size: 
+  input#size(type='number', value='5')
+  | Color:
+  input#color(class="color", value="FF0000")
+
 div#things
   div#close
     &cross;
@@ -9,7 +15,7 @@ div#things
     &#9986;
   div#download
     a &downarrow;
-  
+    
 div.container
   div.canvas
     canvas(id="canvas", height="800vh", style={background: '#fff'})
