@@ -1,6 +1,7 @@
 {
   "name":"Imgage",
-  "version":"0.0.42",
+  "version":"0.0.1",
+  "author": "Luke Shimkus <super99leo@gmail.com>",
   "dependencies": {
     "express":"2.5.8",
     "jade":"0.20.3",
