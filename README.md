@@ -37,8 +37,11 @@ Then make your way over to [http://localhost:8080](http://localhost:8080) and en
 
 # Screenshots
 ![Copy Image URL](http://www.lukeshimkus.com/Images/1.png)
+---
 ![Paste Image URL](http://www.lukeshimkus.com/Images/2.png)
+---
 ![Press Enter](http://www.lukeshimkus.com/Images/3.png)
+---
 ![Have Fun Drawing! :)](http://www.lukeshimkus.com/Images/4.png)
 
 
