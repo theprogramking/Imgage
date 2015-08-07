@@ -35,6 +35,16 @@ npm start
 
 Then make your way over to [http://localhost:8080](http://localhost:8080) and enjoy drawing. 
 
+# Screenshots
+![Copy Image URL](http://www.lukeshimkus.com/Images/1.png)
+---
+![Paste Image URL](http://www.lukeshimkus.com/Images/2.png)
+---
+![Press Enter](http://www.lukeshimkus.com/Images/3.png)
+---
+![Have Fun Drawing! :)](http://www.lukeshimkus.com/Images/4.png)
+
+
 # About
 
 Based off of [this](https://github.com/eddanger/Multi-Touch-Multi-User-Canvas) repository made my [Eddanger](https://github.com/eddanger).
