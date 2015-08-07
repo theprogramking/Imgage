@@ -1,10 +1,29 @@
 {
-  "name":"Imgage",
-  "version":"0.0.1",
+  "name": "Imgage",
+  "version": "1.0.0",
+  "description": "A starting app that allows multiple users to draw on same screen.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KingShimkus/Imgage"
+  },
+  "keywords": [
+    "node",
+    "drawing",
+    "beginner"
+  ],
   "author": "Luke Shimkus <super99leo@gmail.com>",
   "dependencies": {
     "express":"2.5.8",
     "jade":"0.20.3",
     "socket.io":"0.8.7"
-  }
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KingShimkus/Imgage/issues"
+  },
+  "homepage": "https://github.com/KingShimkus/Imgage"
 }
