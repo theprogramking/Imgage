@@ -9,31 +9,31 @@ In order for installation to run as smoothly as possible make sure you download 
 
 # Installation
 
-Installation through Terminal begins with cloning this repository:
+1. Installation through Terminal begins with cloning this repository:
 
-```git
-git clone https://github.com/KingShimkus/Imgage.git
-```
+  ```bash
+  git clone https://github.com/KingShimkus/Imgage.git
+  ```
 
-Then you want to `cd` into, like so:
+2. Then you want to `cd` into, like so:
 
-```
-cd Imgage/
-```
+  ```
+  cd Imgage/
+  ```
 
-Once you are inside the the folder, install package dependencies: 
+3. Once you are inside the the folder, install package dependencies: 
 
-```bash
-npm install
-```
+  ```bash
+  npm install
+  ```
 
-And finally, to run the application:
+4. And finally, to run the application:
 
-```bash
-npm start
-```
+  ```bash
+  npm start
+  ```
 
-Then make your way over to [http://localhost:8080](http://localhost:8080) and enjoy drawing. 
+5. Then make your way over to [http://localhost:8080](http://localhost:8080) and enjoy. :) 
 
 # Screenshots
 ![Copy Image URL](http://www.lukeshimkus.com/Images/1.png)
