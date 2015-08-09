@@ -1,13 +1,18 @@
-# Imgage
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/KingShimkus/Imgage?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![Stories in Ready](https://badge.waffle.io/KingShimkus/Imgage.svg?label=ready&title=Ready)](http://waffle.io/KingShimkus/Imgage)
+## Imgage
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/KingShimkus/Imgage?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![Stories in Ready](https://badge.waffle.io/KingShimkus/Imgage.svg?label=ready&title=Ready)](http://waffle.io/KingShimkus/Imgage)
 
-A application that allows users to draw on an image together at the same time. I want this Node.js application to be kind of a starter application for people just getting into Node and npm. If you have any problems or just want to chat feel free to do so.
+A application that allows users to draw on an image or graph together at the same time. WIth options such as brush size and brush color. Imgage is an simple Node application with a lot of possibilities for expansion. 
 
-# Node and NPM
-In order for installation to run as smoothly as possible make sure you download and install [Node.js](https://nodejs.org/) and [Node Package Manager](https://www.npmjs.com/) on your computer before you begin installation. 
+## Motivation
 
-# Installation
+The Imgage project started as a fork of [this](https://github.com/eddanger/Multi-Touch-Multi-User-Canvas) amazing repository made my [Eddanger](https://github.com/eddanger).  Found on the [Open Source Projects](https://github.com/joyent/node/wiki/projects,-applications,-and-companies-using-node) page, it taught me everything I know about Node. 
+
+## Before You Install
+
+In order for installation to run as smoothly as possible make sure you download and install [Node.js](https://nodejs.org/) and [Node Package Manager](https://www.npmjs.com/) on your computer before you begin. 
+
+
+## Installation
 
 1. Installation through Terminal begins with cloning this repository:
 
@@ -35,22 +40,11 @@ In order for installation to run as smoothly as possible make sure you download 
 
 5. Then make your way over to [http://localhost:8080](http://localhost:8080) and enjoy. :) 
 
-# Screenshots
-![Copy Image URL](http://www.lukeshimkus.com/Images/1.png)
 
----
+## Contributors
 
-![Paste Image URL](http://www.lukeshimkus.com/Images/2.png)
+Please contribute, I am so lonely :'(. You can submit a pull request or just hit me up on [Gitter](https://gitter.im/KingShimkus/Imgage). I do give full credit to those that contribute and will be happy to put your name under contributors.
 
----
+## License
 
-![Press Enter](http://www.lukeshimkus.com/Images/3.png)
-
----
-
-![Have Fun Drawing! :)](http://www.lukeshimkus.com/Images/4.png)
-
-
-# About
-
-Based off of [this](https://github.com/eddanger/Multi-Touch-Multi-User-Canvas) repository made my [Eddanger](https://github.com/eddanger). I found it on the [Open Source Projects](https://github.com/joyent/node/wiki/projects,-applications,-and-companies-using-node) page and it helped a lot while I was learning Node. I just added a lot more, and made it more user friendly. 
+Copyright (c) 2015, Luke Shimkus (MIT License)
